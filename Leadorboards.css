@@ -1,0 +1,279 @@
+@keyframes profileall
+{
+  from{
+      transform: translateY(-1rem);
+  }
+  to{
+    transform: translateY(1rem);
+}
+}
+
+@keyframes profile2
+{
+  from{
+    transform: translateX(-80rem);
+  }
+  to
+   {
+    transform: translate(0px);
+  } 
+}
+
+@keyframes profile3
+{
+  from{
+    transform: translateX(80rem);
+  }
+  to
+   {
+    transform: translate(0px);
+  } 
+}
+
+@keyframes profile1
+{
+  
+  from{
+    transform: translateY(-80rem);
+  }
+  to
+   {
+    transform: translate(0px);
+  }
+}
+  /*
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+ */
+
+
+
+
+
+
+
+
+/*.....................................................................................................................................................*/
+
+body {
+  background-color: dimgray;
+  justify-content: center;
+  align-items: center;
+  font-family: Century Gothic;
+/*  background: linear-gradient(black 30% , #6fff00 50%);*/
+   background:black ;
+   padding-top: 3rem;
+   border-top:1rem solid #6fff00;
+  margin: 0;
+ height :auto;
+}
+
+.leader {
+  width: 100%;
+  height: 100px;
+  color: rgb(111, 255, 0);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fire {
+  height: 80px;
+  width: 80px;
+}
+
+.for_top_rankers h3
+{
+   font-size: 2rem;
+   transform: translateY(-7.3rem);
+}
+.for_top_rankers h3:hover
+{
+  color: #6fff00;
+   font-size: 2rem;
+   transform: translateY(-7.3rem);
+}
+.container_for_3_rankers h4 , #para
+{
+  font-size: 1rem;
+  position: relative;
+  transform: translateY(-8rem);
+}
+.container_for_3_rankers {
+  color: white;
+  background: transparent;
+  margin-top: 9rem;
+  height: 14rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/*
+.top3
+{
+  animation-name: profileall;
+  transition: 3s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+*/
+
+#toprankeprofile2
+{
+  animation-name: profile2;
+  animation-duration: 3s;
+  
+}
+#toprankeprofile3
+{
+  
+  animation-name: profile3;
+  animation-duration: 4s;
+}
+#toprankeprofile1
+{
+  animation-name: profile1;
+  animation-duration: 4s;
+}
+
+#toprankersprofile {
+  width: 100px;
+  height: 100px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+.top3 {
+  padding: 0.5rem;
+  background: rgb(51, 51, 51);
+  display: flex;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+ 
+}
+.top3:hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 10px#6fff00;
+  animation-duration: 2s;
+  transform: translateY(-20px);
+  transition: 0.5s ;
+}
+
+
+.for_top_rankers {
+  font-size: 0.7rem;
+  background: #18181878;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding-left: 1rem;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.otherperfomers {
+  width:auto;
+  height: 42rem;
+  border: 2px solid #1d1b1b;
+  border-radius: 25px;
+  background: rgb(48, 47, 47);
+  padding: 7px;
+}
+.other {
+  color: rgb(247, 247, 247);
+  width: auto;
+  height: 50px;
+  background:transparent;
+  margin:8px;
+  display: flex;
+  transition: 0.5s;
+  border-radius: 15px;
+  border-right:3px solid  #6fff00;
+}
+.other:hover {
+  color: rgb(247, 247, 247);
+  width: auto;
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  animation-duration: 4s;
+  transition: 0.5s;
+  transform: translateY(-5px); 
+  
+}
+.other_rankers_info {
+  background-color: #18181878;
+ /* border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px; */
+  border-radius: 15px;
+  width: 100%;
+  height: 3rem;
+  font-size: 0.8rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.allrankerprofiles
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+#top_10
+{
+  color:azure;
+  font-size: 4rem;
+
+}
+
+/*
+@media only screen and (max-width:500px)
+{
+    border
+    { 
+    background-color: yellow;
+    }
+}
+
+*/
+
+
+
+/*
+@keyframes only {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(-60px);
+  }
+}
+#font {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(187, 0, 255);
+  width: 100px;
+  height: 100px;
+  display: ;
+}
+#font:hover {
+  animation-name: only;
+  animation-duration: 2s;
+}
+#one {
+  color: #6fff00;
+  background: transparent;
+  font-size: 5rem;
+}
+
+*/
