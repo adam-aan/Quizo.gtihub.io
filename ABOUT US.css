@@ -135,7 +135,6 @@ img
     color: white;
     padding: 0 1vw;
 }
------------------------------------------------------------------------------------------------------------------------------------------
 
 
 /* for mobile phone screen "lesser then 700px"
@@ -240,7 +239,7 @@ img
 }
 */
 
-@media ( max-width:804px ) 
+@media ( max-width:804px) 
 {
     body {
         font-family: Century Gothic;
