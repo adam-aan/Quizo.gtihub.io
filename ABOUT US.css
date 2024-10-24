@@ -137,10 +137,10 @@ img
 }
 
 
-/* for mobile phone screen "lesser then 700px"
+/* for mobile phone screen "lesser then 700px"*/
 
 
- @media only screen and(max-width: 600px) 
+ @media only screen and(max-width: 800px) 
 {
 
    body
@@ -237,13 +237,13 @@ img
      }
 
 }
-*/
+/*
 
-@media ( max-width:804px) 
+@media (max-width: 804px) 
 {
     body {
         font-family: Century Gothic;
-        background:#fff;
+         background-color: lightblue;
          }
 
     .div {
@@ -322,3 +322,4 @@ img
         font-size: 5vw;
     }
 }
+*/
