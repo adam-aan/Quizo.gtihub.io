@@ -140,13 +140,13 @@ img
 /* for mobile phone screen "lesser then 700px"*/
 
 
- @media only screen and(max-width: 800px) 
+ @media only screen and(min-width: 800px) 
 {
 
    body
     {
         font-family: Century Gothic;
-        background: #000;
+        background: #555;
         padding: 0vw ;    
     }
  
@@ -265,7 +265,7 @@ img
         width: 90vw;
         height: 90vw;
         margin-top: 1vw; /* Fixed */
-    }
+    /*}
 
     .even {
         animation-name: imageeven;
