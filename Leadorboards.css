@@ -48,66 +48,49 @@
   50%  {background-color: blue;}
   100% {background-color: green;}
 }
- */
-
-
-
-
-
-
-
 
 /*.....................................................................................................................................................*/
 
 body {
-  background-color: dimgray;
   justify-content: center;
   align-items: center;
   font-family: Century Gothic;
 /*  background: linear-gradient(black 30% , #6fff00 50%);*/
    background:black ;
-   padding-top: 3rem;
-   border-top:1rem solid #6fff00;
+   border-top :2vw solid #525252 ;
   margin: 0;
  height :auto;
+ overflow-x:hidden;
 }
 
 .leader {
   width: 100%;
-  height: 100px;
+  height:12vw ;
   color: rgb(111, 255, 0);
-  font-size: 3rem;
+  font-size: 3vw;
   display: flex;
   justify-content: center;
+  animation-name:profile1 ;
+  animation-duration: 2s;
 }
 
 .fire {
-  height: 80px;
-  width: 80px;
+  height:5vw;
+  width: 5vw;
 }
 
-.for_top_rankers h3
+.for_top_rankers h3 , h4 , #para
 {
-   font-size: 2rem;
-   transform: translateY(-7.3rem);
+   font-size: 1vw;
 }
-.for_top_rankers h3:hover
-{
-  color: #6fff00;
-   font-size: 2rem;
-   transform: translateY(-7.3rem);
-}
-.container_for_3_rankers h4 , #para
-{
-  font-size: 1rem;
-  position: relative;
-  transform: translateY(-8rem);
-}
+
+
 .container_for_3_rankers {
+ 
   color: white;
   background: transparent;
-  margin-top: 9rem;
-  height: 14rem;
+  margin-top: 8vw;
+  height: 20vw;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -126,34 +109,33 @@ body {
 #toprankeprofile2
 {
   animation-name: profile2;
-  animation-duration: 3s;
+  animation-duration: 2s;
   
 }
 #toprankeprofile3
 {
   
-  animation-name: profile3;
-  animation-duration: 4s;
+  animation-name: profile2;
+  animation-duration: 2s;
 }
 #toprankeprofile1
 {
-  animation-name: profile1;
-  animation-duration: 4s;
+  animation-name: profile2;
+  animation-duration: 2s;
 }
 
-#toprankersprofile {
-  width: 100px;
-  height: 100px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
+#toprankersprofile
+ {
+  width: 8vw;
+  height: 8vw;
+ }
 
 
 .top3 {
-  padding: 0.5rem;
+  padding: 0.5vw;
   background: rgb(51, 51, 51);
   display: flex;
-  border-radius: 15px;
+  border-radius: 2vw;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
@@ -163,47 +145,51 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 2px 2px 10px#6fff00;
+  box-shadow: 2px 2px 10px#738069;
   animation-duration: 2s;
-  transform: translateY(-20px);
+  transform: translateY(-2vw);
   transition: 0.5s ;
 }
 
 
 .for_top_rankers {
-  font-size: 0.7rem;
-  background: #18181878;
-  width: 100px;
-  height: 100px;
+  font-size: 1vw;
+  background: #2c2c2cfe;
+  width: 8vw;
+  height: 8vw;
   display: inline-block;
-  padding-left: 1rem;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  padding-left: 1vw;
+  border-top-right-radius: 2vw;
+  border-bottom-right-radius: 2vw;
 }
 .otherperfomers {
   width:auto;
-  height: 42rem;
-  border: 2px solid #1d1b1b;
-  border-radius: 25px;
+  height: auto;
+  border: 0.5vw solid #1d1b1b;
+  border-radius: 2vw;
   background: rgb(48, 47, 47);
-  padding: 7px;
+  padding: 1.5vw;
+  overflow:hidden;
+  animation-name:profile3 1s;
+  border-bottom:1vw solid #59ff00;
+  
 }
 .other {
   color: rgb(247, 247, 247);
   width: auto;
-  height: 50px;
+  height: auto;
   background:transparent;
-  margin:8px;
+  margin:1vw;
   display: flex;
+  justify-content: space-around;
   transition: 0.5s;
   border-radius: 15px;
-  border-right:3px solid  #6fff00;
+  border-right:0.1vw solid #6fff00;
 }
 .other:hover {
-  color: rgb(247, 247, 247);
+  color: rgb(64, 255, 0);
   width: auto;
-  height: 50px;
-  margin: 10px;
+  margin: 1vw;
   display: flex;
   animation-duration: 4s;
   transition: 0.5s;
@@ -217,35 +203,23 @@ body {
   border-radius: 15px;
   width: 100%;
   height: 3rem;
-  font-size: 0.8rem;
-  padding-left: 1rem;
+  font-size: 1vw;
+  
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
 }
 .allrankerprofiles
 {
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 3vw;
+  height: 3vw;
 }
 #top_10
 {
   color:azure;
-  font-size: 4rem;
+  font-size: 3vw;
 
 }
-
-/*
-@media only screen and (max-width:500px)
-{
-    border
-    { 
-    background-color: yellow;
-    }
-}
-
-*/
 
 
 
@@ -277,3 +251,88 @@ body {
 }
 
 */
+
+@media (max-width:1000px)
+ {
+    body
+    {
+       background: #000000;
+       width: 100%;
+       height: auto;
+       overflow: auto;
+       border-top: 2vw solid #1eff00;
+    }   
+    
+    .leader
+    { margin: 0vw;
+      background: #000000;
+      width: 100%;
+      font-size: 4vw;
+      color: #59ff00;
+    }
+    .fire
+    {
+      width: 8vw;
+      height: 8vw;
+    }
+    .leader.fire
+     {
+       width: 40vw; 
+       height: 40vw;   
+     }
+    .container_for_3_rankers
+    {
+      width: 100%;
+       height: 100vw;
+      display: flexbox;
+      flex-direction: column;
+      background: #000000;
+    }
+   .top3
+   {
+    width: 50vw;
+    height: 20vw;
+   }
+    .for_top_rankers
+    {
+      width: 100%;
+      height: 20vw;
+    }
+    .for_top_rankers h3 , h4 
+    {
+      font-size: 3vw;
+    }
+    #para
+    {
+      font-size: 2vw;
+    }
+     #toprankersprofile
+     {
+      width: 20vw;
+      height: 20vw;
+
+     }
+
+     .otherperfomers
+     {
+      border:1vw solid #1eff00;
+     }
+   .other
+   {
+    margin: 2vw;
+    width: 95%;
+    height: auto;
+    background: #000;
+    justify-content: center;
+   }
+    .allrankerprofiles
+    {
+      width: 10vw;
+      height: 10vw;
+    }
+    .other_rankers_info h3 ,h3 ,p
+    {
+       font-size:2.5vw ;
+    }
+
+  }
