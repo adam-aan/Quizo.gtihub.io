@@ -119,7 +119,7 @@ p
 }
 
 
-@media (max-width:986px)
+@media (max-width:1000px)
 {
     body{
     
@@ -166,10 +166,7 @@ p
     justify-content: center;
    }
 
-   .container .card
-   {
-   
-   }
+
    .card{
     transform:translateX(9vw) ;
     margin:5vw;
