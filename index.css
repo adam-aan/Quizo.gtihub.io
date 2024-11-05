@@ -383,7 +383,10 @@ button
 */
 
 
-@media (max-width: 1000px) {
+@media  (max-width:986px)
+
+{
+
   body {
     height: 100%;
     background: #000000;
@@ -414,28 +417,34 @@ button
   }
 
   .drop_downheader {
-    display:block; /* Initially hidden */
+    display:block;
     background: #313131;
+    height: fit-content;
     width: 60vw;
-    position: absolute; /* Absolute positioning */
-    top: 100%; /* Position directly below the header */
-    left: 0; /* Align with the left edge of the header */
-    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transitions */
-    opacity: 0; /* Start as invisible */
-    visibility: hidden; /* Prevent interaction */
-    z-index: 1;
+    position: absolute; 
+    top: 100%; 
+    left: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+    opacity: 0;
+    visibility: none;
   }
 
-  #header:hover .drop_downheader {
+  #header:hover .drop_downheader 
+  {
+     width: fit-content;
+     height: 100vw;
+    position: absolute;
     display: block; /* Show dropdown on hover */
-    opacity: 3; /* Make visible */
+    opacity: 6; /* Make visible */
     visibility: visible; /* Allow interaction */
     z-index: 1;
+    margin-top: 10vw;
   }
 
   .drop_downheader #options {
-    padding: 2vw 6vw;
-    height: auto; /* Adjust height automatically */
+    margin: 0%;
+    padding: 9vw 5vw;
+    height: fit-content; /* Adjust height automatically */
     width: 45vw;
     border-bottom: 2px solid #414141;
     font-size: 6vw;
