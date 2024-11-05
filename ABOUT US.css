@@ -18,7 +18,7 @@ background: rgb(33, 32, 32);
 font-family: Georgia, 'Times New Roman', Times, serif,;
 font-family: Century Gothic;
 padding: 0 6vw;
-
+overflow-x:hidden;
 }
 header h1
 {
@@ -88,13 +88,15 @@ background: #000;
 }
 #thanku
 {
+    margin: -1vw -7vw;
 font-size: 3vw;
+color: black;
 background: #0ae32a;
 padding: 1.5vw 8vw;
 }
 .f1
 {
-margin: 0;
+margin: 1vw -7vw;
 background: #000;
 font-size:2vw ;
 display: flex;
@@ -102,7 +104,7 @@ justify-content: space-around;
 }
 .f1 div
 {
-margin: 0;
+margin: 0vw -10vw;
 padding: 0;
 font-size:1.3vw ;
 display: flex;
@@ -116,12 +118,14 @@ color: #66ff00;
 }
 .f2
 {
+    margin: -1vw -7vw;
 font-size:2vw ;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 flex-direction: row;
 padding: 0.5vw 3vw;
 background: #000;
+overflow: hidden;
 }
 .f2 div
 {
@@ -368,4 +372,5 @@ span {
 {
     border-radius: 25px;
 }
+
 }
