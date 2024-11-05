@@ -60,7 +60,10 @@ body {
    border-top :2vw solid #525252 ;
   margin: 0;
  height :auto;
- overflow-x:hidden;
+ -ms-overflow-style: none; 
+ scrollbar-width: none;  
+
+  
 }
 
 .leader {
@@ -163,19 +166,24 @@ body {
   border-bottom-right-radius: 2vw;
 }
 .otherperfomers {
-  width:auto;
-  height: auto;
+  margin-left: 8%;
+  width:80vw;
+  height: 30vw;
   border: 0.5vw solid #1d1b1b;
   border-radius: 2vw;
-  background: rgb(48, 47, 47);
+  /*background: rgb(48, 47, 47);*/
   padding: 1.5vw;
-  overflow:hidden;
+  overflow-y: scroll;
   animation-name:profile3 1s;
-  border-bottom:1vw solid #59ff00;
-  
+  border-bottom:0.5vw solid #59ff00;
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+  /*box-shadow:inset 1px 1px 20px rgb(71, 71, 71);*/
+
 }
+
 .other {
-  color: rgb(247, 247, 247);
+  color: rgb(247, 247 , 247);
   width: auto;
   height: auto;
   background:transparent;
@@ -196,6 +204,18 @@ body {
   transform: translateY(-5px); 
   
 }
+
+.player
+{
+  color: rgb(247, 247 , 247);
+  width: 75vw;
+  background:transparent;
+  margin:2vw 1vw;
+  display: flex;
+  transition: 0.5s;
+  border-radius: 15px;
+  border-right:0.1vw solid #6fff00;
+}
 .other_rankers_info {
   background-color: #18181878;
  /* border-bottom-right-radius: 15px;
@@ -204,7 +224,6 @@ body {
   width: 100%;
   height: 3rem;
   font-size: 1vw;
-  
   display: flex;
   justify-content: space-around;
 
@@ -252,7 +271,7 @@ body {
 
 */
 
-@media (min-width:1000px)
+@media (max-width:1000px)
  {
     body
     {
@@ -316,6 +335,8 @@ body {
      .otherperfomers
      {
       border:1vw solid #1eff00;
+      height: 30vw;
+      overflow: scroll;
      }
    .other
    {
